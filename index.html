@@ -1,103 +1,109 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Portfolio</title>
+    <title>Monisha Sree | Data Analyst | Data Scientist </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #84a6e9;
+            background-color: #f4f6f9;
         }
-
         header {
-            background-color: #941919;
+            background-color: #111827;
             color: #fff;
             text-align: center;
-            padding: 2rem 0;
-            position: relative; /* Add this */
+            padding: 3rem 0;
+            position: relative;
         }
-
         .header-content h1 {
             font-size: 2.5rem;
+            margin-bottom: 5px;
         }
-
-        /* Add styles for the round profile picture */
+        .header-content p {
+            color: #9ca3af;
+            font-size: 1.1rem;
+            margin: 0;
+        }
         .profile-picture {
-            width: 100px; /* Adjust the size as needed */
-            height: 100px;
-            border-radius: 75%; /* Create a circular shape */
-            object-fit: cover; /* To ensure the image fills the circular area */
-            position: absolute; /* Add this */
-            top: 75px; /* Adjust top position as needed */
-            left: 75px; /* Adjust left position as needed */
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            position: absolute;
+            top: 20px;
+            left: 30px;
         }
-
         nav {
-            background-color: #333;
+            background-color: #1f2937;
             color: #fff;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
         }
-
         nav ul {
             list-style-type: none;
-            padding: 0;
+            padding: 15px 0;
+            margin: 0;
         }
-
         nav ul li {
             display: inline;
-            margin: 0 20px;
+            margin: 0 15px;
         }
-
         nav ul li a {
             text-decoration: none;
             color: #fff;
+            font-weight: bold;
         }
-
+        nav ul li a:hover {
+            color: #60a5fa;
+        }
         .section-content {
             background-color: #fff;
             padding: 2rem;
-            margin: 1rem;
-            border-radius: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 1.5rem auto;
+            border-radius: 12px;
+            max-width: 850px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
             text-align: justify;
         }
-
         .download-button {
-            background-color: #333;
+            background-color: #111827;
             color: #fff;
-            padding: 0.5rem 1rem;
+            padding: 0.8rem 1.5rem;
             text-decoration: none;
-            border-radius: 20px;
+            border-radius: 25px;
             display: inline-block;
             margin-top: 10px;
-            align-self: center;
         }
-
         .download-button:hover {
-            background-color: #555;
+            background-color: #374151;
         }
-
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #333;
+            background-color: #111827;
             color: #fff;
+            margin-top: 20px;
         }
-
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
+        ul { padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        @media (max-width: 600px) {
+            .profile-picture { position: static; margin-bottom: 15px; }
+            header { padding: 1.5rem 0; }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="header-content">
-            <!-- Add your profile picture here -->
-            <img src="MY_PHOTO.jpeg" alt="Your Profile Picture" class="profile-picture">
-            <h1>NG MONISHA SREE</h1>
-            <p>Am BCA Student </p>
+            <img src="MY_PHOTO.jpeg" alt="Monisha Photo" class="profile-picture">
+            <h1>N G MONISHA SREE</h1>
+            <p>Data Analyst | Aspiring Data Scientist | Freelancer</p>
+            <p style="font-size:0.9rem; margin-top:5px;">Walajabad | Open to Work</p>
         </div>
     </header>
 
@@ -108,25 +114,21 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#resume">Resume</a></li>
-           
         </ul>
     </nav>
 
     <section id="about">
         <div class="section-content">
             <h2>About Me</h2>
-            <p>I'm a <b>BCA Student</b> with passion about creating websites using html,css and javascript.
-                I am eager to apply my knowledge in real-world scenarios and gain hands on experience in the IT industry.</p >
-
+            <p>Hi, I'm <b>Monisha</b>  I'm a Data Analyst who helps small businesses turn data into decisions. I build ML models (like Student Placement Prediction with 85% accuracy) and affordable websites for local shops. Currently looking for Data Analyst & Freelance Projects.</p>
         </div>
     </section>
 
     <section id="education">
         <div class="section-content">
             <h2>Education</h2>
-            <p>Goverment Art and science college-BCA</p>
-            
-            
+            <p><b>Government Arts and Science College  Perumbakkam - BCA</b></p>
+            <p>Specialized in Data Analytics, Python & Machine Learning Gen AI </p>
         </div>
     </section>
 
@@ -134,12 +136,10 @@
         <div class="section-content">
             <h2>Skills</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>java</li>
-                <li>Python</li>
-                <li>SQL</li>
-                
+                <li><b>Data:</b> Python, SQL, Pandas, Excel (Advanced)</li>
+                <li><b>ML & Tools:</b> Scikit-Learn, Power BI, Streamlit</li>
+                <li><b>Web:</b> HTML, CSS, GitHub Pages</li>
+                <li><b>Freelance:</b> Business Websites for Shops </li>
             </ul>
         </div>
     </section>
@@ -148,45 +148,26 @@
         <div class="section-content">
             <h2>Projects</h2>
             <ul>
-                <li><a href="#">digital portfolio</a></li>
-                <li><a href="#">Travel blog</a></li> 
-                <!-- Add more project links here -->
+                <li><a href="https://github.com/monisha3106" target="_blank"><b>Student Placement Prediction</b> - ML Model (Live Project)</a></li>
+                <li><a href="#"><b>Digital Portfolio</b> - This website hosted on GitHub Pages</a></li> 
+                <li><b>Local Business Websites</b> - Starting at Rs. 999 for shops in Kalpakkam </li>
             </ul>
         </div>
     </section>
 
     <section id="resume">
-    
         <div class="section-content">
             <center>
             <h2>Resume</h2>
+            <p>Looking for Data Analyst roles? Download my updated CV here.</p>
             <a href="MY_RESUME.png" target="_blank" class="download-button">Download CV</a>
+            <a href="https://github.com/monisha3106" target="_blank" class="download-button" style="background:#fff; color:#111827; border:1px solid #111827;">View GitHub</a>
         </center>
         </div>
-        
     </section>
 
     <footer>
-        <p>&copy; 2025 NG MONISHA SREE</p>
+        <p>&copy; 2026 N G MONISHA SREE | Built with ❤️ on GitHub Pages</p>
     </footer>
-
-    <script>
-        // Smooth scrolling to section when clicking on navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('href').substring(1);
-                const targetElement = document.getElementById(targetId);
-
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-    </script>
 </body>
 </html>
